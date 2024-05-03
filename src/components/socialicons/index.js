@@ -14,50 +14,51 @@ export const Socialicons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
+        {" "}
         {socialprofils.twitter && (
           <li>
             <a href={socialprofils.twitter}>
               <FaTwitter />
-            </a>
+            </a>{" "}
           </li>
-        )}
+        )}{" "}
         {socialprofils.github && (
           <li>
             <a href={socialprofils.github}>
               <FaGithub />
-            </a>
+            </a>{" "}
           </li>
-        )}
+        )}{" "}
         {socialprofils.facebook && (
           <li>
             <a href={socialprofils.facebook}>
               <FaFacebookF />
-            </a>
+            </a>{" "}
           </li>
-        )}
+        )}{" "}
         {socialprofils.linkedin && (
           <li>
             <a href={socialprofils.linkedin}>
               <FaLinkedin />
-            </a>
+            </a>{" "}
           </li>
-        )}
+        )}{" "}
         {socialprofils.youtube && (
           <li>
             <a href={socialprofils.youtube}>
               <FaYoutube />
-            </a>
+            </a>{" "}
           </li>
-        )}
+        )}{" "}
         {socialprofils.twitch && (
           <li>
             <a href={socialprofils.twitch}>
               <FaTwitch />
-            </a>
+            </a>{" "}
           </li>
-        )}
-      </ul>
-      <p>Follow Me</p>
+        )}{" "}
+      </ul>{" "}
+      <p> Follow Me </p>{" "}
     </div>
   );
 };
