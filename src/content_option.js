@@ -19,7 +19,7 @@ const introdata = {
 };
 
 const dataabout = {
-  title: "abit about my self",
+  title: "about my self",
   aboutme:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
@@ -43,35 +43,46 @@ const worktimeline = [
 
 const skills = [
   {
+    name: "java",
+    value: 75,
+  },
+  {
     name: "Python",
-    value: 90,
+    value: 50,
   },
   {
-    name: "Djano",
-    value: 85,
+    name: "Spring Boot",
+    value: 50,
   },
   {
-    name: "Javascript",
+    name: "Docker",
     value: 80,
   },
   {
-    name: "React",
+    name: "GitHub CI/CD",
     value: 60,
   },
   {
-    name: "Jquery",
+    name: "MySql",
     value: 85,
   },
+  {
+    name: "MSSql",
+    value: 75,
+  },
+  {
+    name: "MongoDB",
+    value: 70,
+  },
 ];
-
 const services = [
   {
-    title: "UI & UX Design",
+    title: "Back-End web Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
   {
-    title: "Mobile Apps",
+    title: "DevOps",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
@@ -80,11 +91,16 @@ const services = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
+  {
+    title: "Teaching",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+  },
 ];
 
 const dataportfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
+    img: "https://picsum.photos/500/?grayscale",
     description:
       "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
@@ -160,7 +176,6 @@ const dataportfolio = [
 
 const contactConfig = {
   YOUR_EMAIL: "name@domain.com",
-  YOUR_FONE: "(555)123-4567",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
   // creat an emailjs.com account
